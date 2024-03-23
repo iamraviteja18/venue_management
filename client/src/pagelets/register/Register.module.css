@@ -1,0 +1,12 @@
+.formLayout {
+  display: flex;
+  flex-direction: column;
+}
+
+.formHeader {
+  margin-bottom: 2rem;
+}
+
+.forgotLink {
+  float: right;
+}

@@ -1,0 +1,69 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px 40px;
+    overflow: auto;
+    height: calc(100% - 20px);
+}
+
+.gridItem {
+    align-items: center;
+    cursor: pointer;
+}
+
+.filtersContainer {
+    padding-right: 24px;
+}
+
+.filtersTitle {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.filtersCollapse {
+    overflow: auto;
+    height: calc(100% - 280px);
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: right;
+}
+
+.cardTitle {
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.cardDesc{
+    font-size: 16px;
+    color: gray;
+}
+
+.cardSubDesc{
+    color: gray;
+}
+
+.filterContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.actionBtns{
+    opacity: 0.5;
+    font-size: 12px;
+    padding-left: 8px;
+    gap:4px;
+}
+.filtersHeaderTitle {
+    margin: 8px 4px;
+    font-weight: 500;
+}

@@ -1,0 +1,117 @@
+.flex {
+  display: flex;
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+.flexCol {
+  flex-direction: column;
+}
+
+.fullWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 32px;
+  gap: 32px;
+}
+
+.header {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+
+  .headerTitle {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .headerDesc {
+    font-size: 14px;
+    color: grey;
+  }
+}
+
+.spaceBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* DETAIL PAGE */
+
+.detailPageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailPageHeader {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  padding-bottom: 32px;
+  padding-inline: 32px;
+  margin-block: 32px;
+
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.detailPageHeaderActions {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.detailPageDetailsContainer {
+  display: flex;
+  flex: 1;
+
+  margin-inline: 32px;
+}
+
+.detailPageSidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-right: 32px;
+}
+
+.detailPageImage {
+  width: 350px;
+}
+
+.detailPageCalendar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.detailPageAddressBar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.detailPageAddressSegment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detailPageAddressLabel {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dateBookingList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
